@@ -1,0 +1,47 @@
+self.r = redis.Redis(host='localhost', port=6379, decode_responses=True)
+self.r.lpush("parkSeq", parkSeq)  #双向链表
+self.r.rpop("parkSeq")
+self.r.sadd('code','数据')  #无序集合
+self.r.spop('loc')   #从集合右侧返回数据
+
+
+
+
+
+aapt dump badging C:\t.apk
+
+select * from electric_life_information  left join pile_status  on electric_life_information.station_id = pile_status.station_id where electric_life_information.operator_code = pile_status.operator_code
+yrg261437215
+yrgysj666
+
+
+select * from electric_life_information left join pile_status on electric_life_information.station_id = pile_status.station_id where electric_life_information.operator_code = pile_status.operator_code
+
+
+migrate --fake-initial myapp
+@api_view(['GET'])
+def test(request):
+    ssh = paramiko.SSHClient()
+    ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    ssh.connect('192.168.1.94', 22, 'root', 'yzw123')
+    cmd = 'date'
+    stdin, stdout, stderr = ssh.exec_command(cmd)
+    result = stdout.read().decode('utf-8')
+    res = {'result': result}
+    ssh.close()
+    return Response(res)
+
+path('service/',include('myapp.urls'))
+
+
+
+from utils.logger import Logger
+logger = Logger()
+logger.error(traceback.format_exc())
+logger.error('====获取城市code异常')
+logger.info("===={}已存储".format(data['stationName']))
+
+mi mi mi ma ma ma mi ma
+ya ya ya ya ya ya ya mai mai mai mai mai mai mai
+
+
